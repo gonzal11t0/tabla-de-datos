@@ -1,0 +1,40 @@
+@media screen and (max-width:656px) {
+    table{
+        font-size:1rem;
+        width:90%;
+        
+    }
+    tfoot tr th{
+        background-color: rgb(91, 134, 134);
+        color: blue;
+        font-size:1rem;
+    }
+}
+@media screen and (max-width:462px) {
+    caption{
+        font-size:1.5rem;
+    }
+    table{
+        font-size:0.7rem;
+        width:auto;
+    }
+    tfoot tr th{
+        background-color: rgb(91, 134, 134);
+        color: blue;
+        font-size:0.9rem;
+    }
+}
+@media screen and (min-width:276px) and (max-width:316px) {
+    caption{
+        font-size:1rem;
+    }
+    table{
+        font-size:0.6rem;
+        width:100%;
+    }
+    tfoot tr th{
+        background-color: rgb(91, 134, 134);
+        color: blue;
+        font-size:0.5rem;
+    }
+}

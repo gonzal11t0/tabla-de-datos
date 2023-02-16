@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+caption{
+    font-size:3rem;
+}
+.container{
+    display: grid;
+    grid-template-columns:auto;
+    background-color: black;
+}
+table{
+    border-spacing: 0;
+    border-collapse:collapse;
+    width:60%;
+    margin: 100px auto;
+    color: aliceblue;
+    font-size:1.5rem;
+}
+td, th{
+    border: solid 1px #ccc;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #000000;
+}
+td:nth-child(n+1),
+th:nth-child(n+1){
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: rgb(56, 55, 55);
+}
+tfoot tr th{
+    background-color: rgb(91, 134, 134);
+    color: blue;
+    font-size:1.6rem;
+}
