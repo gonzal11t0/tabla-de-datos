@@ -20,7 +20,7 @@ table{
 }
 td, th{
     border: solid 1px #ccc;
-    padding: 5px;
+    padding:3px;
 }
 tr:nth-child(even) {
     background-color: #000000;
